@@ -6,6 +6,18 @@ export default props =>
         subtitle="Segundo projeto de React">
             <div className='display-10'>Bem vindo</div>
             <hr />
-            <p className='mb-0'>Sistema para exemplificar a contrucao
-                de cadastro em react</p>
+            <p className='mb-0'>Este é um site para testar minhas habilidades,
+             então, terá algumas coisas que voces podem fazer, exemplo:
+             <ul>
+                <li>
+                    Fazer um comentario na aba "Comentarios"
+                </li>
+                <li>
+                    Criar seu usuario na aba "Usuários"
+                </li>
+                <li>
+                    Deixar uma nota na aba "Notas"
+                </li>
+             </ul>
+             </p>
         </Main>

@@ -1,13 +1,16 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom"
+// src/main/Routes.jsx
 
-import Home from '../components/home/Home'
-import UserCrud from "../components/user/UserCrud";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from '../components/home/Home';
+import UserCrud from '../components/user/UserCrud';
+import Comments from '../components/Comments/Comments';
 
 export default props => (
     <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/users" element={<UserCrud />} />
+        <Route path="/comments" element={<Comments />} />
         <Route path="*" element={<Home />} />
     </Routes>
 );

@@ -11,5 +11,11 @@ export default props =>
     <Link to="/users">
         <i className='fa fa-users'></i> Usuários
     </Link>
+    <Link>
+        <i className="fa fa-star"></i> FeedBack
+    </Link>
+    <Link to={"/comments"}>
+        <i className="fa fa-comment"></i> Comentarios
+    </Link>
         </nav>
     </aside>
