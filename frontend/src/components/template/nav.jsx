@@ -11,7 +11,7 @@ export default props =>
     <Link to="/users">
         <i className='fa fa-users'></i> Usuários
     </Link>
-    <Link>
+    <Link to="/feedback">
         <i className="fa fa-star"></i> FeedBack
     </Link>
     <Link to={"/comments"}>

@@ -42,5 +42,12 @@
       "name": "Pagina de vendas",
       "comment": "aassas"
     }
+  ],
+  "feedback": [
+    {
+      "id": "57c7",
+      "name": "Breno",
+      "rating": 5
+    }
   ]
 }

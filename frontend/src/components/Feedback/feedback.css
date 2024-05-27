@@ -1,0 +1,13 @@
+.star-rating {
+    display: flex;
+}
+
+.star-rating .fa-star {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.star-rating .fa-star.text-warning {
+    color: gold;
+}
